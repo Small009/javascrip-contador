@@ -1,0 +1,22 @@
+body {
+
+    color: grey;
+    text-align: center;
+    background-color: aqua;
+}
+
+button {
+
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin: 15px;
+    background-color: black;
+    color: aliceblue;
+
+}
+
+span {
+font-size: 25px;
+
+}
