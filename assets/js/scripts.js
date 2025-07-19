@@ -2,7 +2,9 @@ var count = 0;
 const current_number = document.getElementById('currentNumber');
 const btnn = document.getElementById('Adicionar');
 const btn = document.getElementById('subtrair');
+const resett = document.getElementById('reset');
 
+resett.addEventListener('click', zerarcont);
 btnn.addEventListener('click', ad);
 btn.addEventListener('click', da);
 btn.addEventListener('click', cortext);
@@ -50,6 +52,14 @@ function da () {
         
         
       
+}
+
+
+function zerarcont () {
+
+  count = 0;
+  current_number.innerHTML = count;
+
 }
 
 /*function desabilite () {

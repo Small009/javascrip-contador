@@ -5,7 +5,19 @@ body {
     background-color: rgb(5, 180, 166);
 }
 
-button {
+#subtrair {
+
+    border-radius: 25px;
+    height: 35px;
+    width: 20px;
+    margin: 5px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    
+
+}
+#Adicionar {
 
     border-radius: 25px;
     height: 35px;
@@ -28,6 +40,20 @@ span {
       background-color: white;
       
       
+}
+
+#reset {
+
+    height: 35px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 15px;
+    
+
+
 }
 
 
