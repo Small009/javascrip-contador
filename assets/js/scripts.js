@@ -5,17 +5,21 @@ const btn = document.getElementById('subtrair');
 
 btnn.addEventListener('click', ad);
 btn.addEventListener('click', da);
-//btnn.addEventListener('click', desabilite);
-//btn.addEventListener('click', ativar);
 btn.addEventListener('click', cortext);
 btnn.addEventListener('click', cortext);
+
+function iniciopagina(){
+
+        alert("Todos Eventos foram implementado através JavaScript");
+}
+
 
 function ad () {
        
          if ( count > 9) {
                 
                 document.getElementById("Adicionar").disabled = true;
-                alert("Botão + desativado");
+                alert("Você chegou ao final");
 
         } else {
 
@@ -34,7 +38,7 @@ function da () {
 
                 
                 document.getElementById("subtrair").disabled = true;
-                alert("Botão - desativado");
+                alert("Você chegou ao final");
 
         } else {
                 
